@@ -1,0 +1,35 @@
+.logo-img {
+    height: 150px;
+    padding-top: 20px;
+}
+
+#hero-con {
+    height: 200px;
+}
+
+#work-con {
+    height: 3000px;
+}
+
+#about-con {
+    height: 600px;
+}
+
+#contact-con {
+    height: 100px;
+}
+
+@media screen and (min-width:768px) {
+
+    #hero-con {
+        height: 400px;
+    }
+
+    #work-con {
+        height: 800px;
+    }
+
+    #contact-con {
+        height: 200px;
+    }
+}
