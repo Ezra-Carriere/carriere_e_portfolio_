@@ -3,8 +3,12 @@
     padding-top: 20px;
 }
 
-#hero-con {
+#hero-text {
     height: 200px;
+}
+
+#hero-con {
+    height: 600px;
 }
 
 #work-con {
@@ -12,7 +16,7 @@
 }
 
 #about-con {
-    height: 600px;
+    height: 1150px;
 }
 
 #contact-con {
@@ -22,14 +26,48 @@
 @media screen and (min-width:768px) {
 
     #hero-con {
+        height: 420px;
+    }
+
+    #hero-text {
         height: 400px;
+    }
+
+    #hero-img img {
+        height: 400px;
+        padding-top: 15px;
     }
 
     #work-con {
         height: 800px;
     }
 
-    #contact-con {
-        height: 200px;
+    #about-con {
+        height: 600px;
     }
+}
+
+@media screen and (min-width:1200px) {
+
+    #hero-con {
+        height: 470px;
+    }
+
+    #hero-text {
+        height: 450px;
+    }
+
+    #hero-img img {
+        width: 600px ;
+        height: 450px;
+    }
+
+    #about-con {
+        height: 650px;
+    }
+
+    #about-con img {
+        padding-top: 10px;
+    }
+
 }
