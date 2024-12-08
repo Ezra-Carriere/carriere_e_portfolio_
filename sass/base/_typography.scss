@@ -1,3 +1,10 @@
+#nav-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
 .hero-text {
     color: white;
 }
@@ -60,6 +67,10 @@ p {
 }
 
 @media screen and (min-width:768px) { 
+
+    #nav-title {
+        font-size: 30px;
+    }
 
     .hero-title {
         font-size: 50px;
