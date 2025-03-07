@@ -1,19 +1,26 @@
-# Ezra Carriere Portfolio - Designer
+# Ezra Carriere - Web Designer Portfolio
 
-My name is Ezra Carriere and this is my portfolio. I am a web designer out of Fanshawe College in the Interactive Media Design Program.
+Hello! I’m Ezra Carriere, a passionate web designer and developer based in Fanshawe College's Interactive Media Design program. This portfolio highlights my creative and technical skills, showcasing my ability to deliver innovative and user-friendly web experiences.
 
-## About
+## About Me
 
-My portfolio demonstrates my skills and abilities in web design and developing. It is used to show potential employers why they should choose me over other candidates applying for the same position.
+This portfolio is a collection of my work that demonstrates my proficiency in web design and development. It serves as a platform for potential employers to assess my skills and see firsthand how I approach and execute design challenges.
 
-## Techniques Demonstrated
+## Skills & Technologies
 
-HTML5, CSS3, Javascript, SASS
+- **HTML5** – Structuring content and ensuring semantic markup.
+- **CSS3** – Crafting visually appealing and responsive layouts.
+- **JavaScript** – Adding interactivity and dynamic functionality.
+- **SASS** – Writing clean, maintainable, and scalable stylesheets.
 
-## Local Installation
+## How to View Locally
 
-In order to access my portfolio locally, simply clone the repository, then open the index.html file in your preffered browser.
+To view my portfolio locally, follow these steps:
 
-## Contact 
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your preferred browser.
 
-If you have any questions or would just like to reach out, please contact me via email - e_carriere150983@fanshaweonline.ca
+## Contact Me
+
+I’d love to hear from you! Whether you have questions, feedback, or are interested in collaborating, feel free to reach out via email:  
+[**e_carriere150983@fanshaweonline.ca**]
