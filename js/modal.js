@@ -21,50 +21,42 @@ export function setupModal() {
         if (workTitle) {
             const workName = workTitle.textContent.trim();
             if (images[workName]) {
-                currentImageIndex = 0; // Reset to the first image
-                currentImageArray = images[workName]; // Update the image array
-                showModal(); // Show the modal
+                currentImageIndex = 0; 
+                currentImageArray = images[workName]; 
+                showModal(); 
             }
         }
 
-        // Close modal
         if (event.target === closeModal) {
             closeModalWindow();
         }
 
-        // Previous button logic
         if (event.target === prevButton && currentImageIndex > 0) {
-            currentImageIndex--; // Go to the previous image
-            updateCarousel(); // Update the image
+            currentImageIndex--;
+            updateCarousel();
         }
 
-        // Next button logic
         if (event.target === nextButton && currentImageIndex < currentImageArray.length - 1) {
-            currentImageIndex++; // Go to the next image
-            updateCarousel(); // Update the image
+            currentImageIndex++;
         }
 
-        // Close modal if clicking outside of the modal content
         if (event.target === modal) {
             closeModalWindow();
         }
     });
 
-    // Show the modal and load the first image
     function showModal() {
-        modal.style.display = 'block'; // Display the modal
-        updateCarousel(); // Update the carousel to show the first image
+        modal.style.display = 'block';
+        updateCarousel(); 
     }
 
-    // Update the image in the modal based on the current index
     function updateCarousel() {
-        console.log("Current Image Path:", currentImageArray[currentImageIndex]); // Log to check image path
-        modalImage.src = currentImageArray[currentImageIndex]; // Update the image source
+        console.log("Current Image Path:", currentImageArray[currentImageIndex]);
+        modalImage.src = currentImageArray[currentImageIndex];
     }
 
-    // Close the modal window
     function closeModalWindow() {
-        modal.style.display = 'none'; // Hide the modal
+        modal.style.display = 'none';
     }
 }
 
